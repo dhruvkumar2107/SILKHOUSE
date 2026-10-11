@@ -11,7 +11,7 @@ const spans = ["lg:col-span-7", "lg:col-span-5", "lg:col-span-5", "lg:col-span-7
 
 export function SignatureSection({ featured }: { featured: Saree[] }) {
   return (
-    <section id="signature" className="relative bg-ivory py-20 sm:py-28">
+    <section id="signature" className="relative bg-ivory py-16 sm:py-20">
       <div className="container-lux">
         <Reveal className="mx-auto max-w-3xl text-center">
           <p className="eyebrow text-wine">Curated by Geeta Silk House</p>
@@ -24,7 +24,7 @@ export function SignatureSection({ featured }: { featured: Saree[] }) {
           </p>
         </Reveal>
 
-        <div className="mt-10 grid gap-5 lg:grid-cols-12">
+        <div className="mt-8 grid gap-5 lg:grid-cols-12">
           {signatureEdits.map((edit, i) => (
             <Reveal key={edit.id} delay={i * 0.06} className={spans[i]}>
               <Tilt3D
