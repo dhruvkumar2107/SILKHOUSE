@@ -179,8 +179,8 @@ export function SiteFooter() {
             © {year} {storeConfig.name}. All rights reserved.
           </p>
           <p>
-            Product imagery on this site is original illustrative artwork and is not a photograph of
-            store inventory.
+            Product imagery is representative stock photography — please visit the store to view the
+            actual inventory in person.
           </p>
         </div>
       </div>

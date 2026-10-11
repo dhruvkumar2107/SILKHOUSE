@@ -32,6 +32,7 @@ Open http://localhost:3000. The catalogue seeds itself from `src/data/products.t
 | `npm run start` | Run the production build |
 | `npm run lint` | ESLint |
 | `node scripts/generate-catalog.mjs` | Regenerate the 100 product SVGs, atmosphere art and `src/data/products.ts` |
+| `node scripts/attach-product-photos.mjs` | Download free HD saree photos (Pexels License) into `public/sarees/photos/` and point every product at them. Re-run after regenerating the catalog |
 
 > On Windows, PowerShell may block `npm.ps1`. If so run scripts via `cmd /c "npm run build"`.
 
@@ -58,7 +59,7 @@ Store details (name, address, tagline) live in `src/lib/config.ts`.
 
 To stay honest, the site does **not** invent facts. These are deliberately left out until the store supplies them:
 
-- Real product photography. Catalogue images are **original illustrative SVG artwork** (`public/sarees/`, `public/atmosphere/`) representing colour, weave and style — not photographs of physical inventory. Replace the `image` field per saree (via the admin dashboard or `products.ts`) with real photos.
+- Real product photography. The catalogue ships with **high-resolution photos** downloaded into `public/sarees/photos/` by `scripts/attach-product-photos.mjs`, so they are served locally and load instantly with the site. These are **representative stock photos (free-to-use Pexels License), not photographs of the store's physical inventory**. Replace the `image` field per saree (via the admin dashboard or `products.ts`) with genuine catalog photos when available.
 - Shipping, returns and exchange policies. Placeholders note this on `/terms`; add the real policy before launch.
 - Reviews, certifications and store history — not shown because none were provided.
 

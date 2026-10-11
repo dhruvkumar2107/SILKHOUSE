@@ -44,7 +44,7 @@ export function ProductDetail({ product, related }: { product: Saree; related: S
         </nav>
 
         <div className="mt-8 grid gap-12 lg:grid-cols-2 lg:gap-16">
-          <div>
+          <div className="lg:sticky lg:top-28 lg:self-start">
             <SareeImage
               src={product.image}
               alt={`${product.name} — ${product.fabric} silk saree with ${product.weave} weave`}
@@ -53,8 +53,8 @@ export function ProductDetail({ product, related }: { product: Saree; related: S
               className="aspect-[3/4] w-full rounded-xl border border-gold/20"
             />
             <p className="mt-4 text-xs leading-relaxed text-ink/45">
-              Illustrative product imagery. Visit the store to view the actual saree, weave and zari
-              detail in person.
+              High-resolution representative photo. Visit the store to view the actual saree, weave
+              and zari detail in person.
             </p>
           </div>
 

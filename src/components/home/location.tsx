@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Clock, Mail, MapPin, Navigation, Phone } from "lucide-react";
 import {
   directionsUrl,
-  fullAddress,
   mapEmbedUrl,
   storeConfig,
 } from "@/lib/config";
@@ -133,7 +132,6 @@ export function LocationSection() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <p className="container-lux mt-6 text-xs text-ink/40">{fullAddress}</p>
     </section>
   );
 }
