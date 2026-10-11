@@ -49,8 +49,8 @@ Everything below is intentionally configurable. Set values in `.env.local` (see 
 | `NEXT_PUBLIC_STORE_PHONE` | Optional phone shown in the footer. Blank hides it. | empty |
 | `NEXT_PUBLIC_STORE_EMAIL` | Optional email shown in the footer. Blank hides it. | empty |
 | `NEXT_PUBLIC_INSTAGRAM_URL` / `NEXT_PUBLIC_FACEBOOK_URL` / `NEXT_PUBLIC_YOUTUBE_URL` | Optional social links. Blank hides them. | empty |
-| `ADMIN_PASSWORD` | Password for `/admin`. **Change before launch.** | `geeta-admin` |
-| `ADMIN_SECRET` | Secret used to sign admin session tokens. Use a long random string. | dev placeholder |
+| `ADMIN_PASSWORD` | Password for `/admin`. **Fail-closed: no fallback — if unset, the dashboard rejects every login.** | *none (login disabled)* |
+| `ADMIN_SECRET` | Secret used to sign admin session tokens. Use a long random string. | *none (ephemeral per-process, sessions reset on restart)* |
 
 Store details (name, address, tagline) live in `src/lib/config.ts`.
 
@@ -64,7 +64,7 @@ To stay honest, the site does **not** invent facts. These are deliberately left 
 
 ## Admin dashboard
 
-Visit `/admin` and sign in with `ADMIN_PASSWORD`. From there you can add, edit and delete sarees and reset the catalogue to the original seed.
+Visit `/admin` and sign in with `ADMIN_PASSWORD` (set it in `.env.local` — until you do, login is locked out by design). From there you can add, edit and delete sarees and reset the catalogue to the original seed.
 
 ### Data persistence
 

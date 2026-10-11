@@ -3,12 +3,14 @@ import crypto from "node:crypto";
 /**
  * Lightweight admin authentication for the catalog dashboard.
  *
- * Set ADMIN_PASSWORD (and optionally ADMIN_SECRET) in .env.local before going
- * live. The token is an HMAC-signed, time-limited value stored in the browser.
+ * Fail-closed: there is no fallback password. Set ADMIN_PASSWORD in .env.local
+ * to enable the dashboard; until then every login attempt is rejected. Set
+ * ADMIN_SECRET to a long random string so session tokens survive restarts;
+ * without it a fresh per-process secret is used (sessions reset on restart).
  */
 
-const PASSWORD = process.env.ADMIN_PASSWORD ?? "geeta-admin";
-const SECRET = process.env.ADMIN_SECRET ?? "geeta-silk-house-dev-secret-change-me";
+const PASSWORD = process.env.ADMIN_PASSWORD;
+const SECRET = process.env.ADMIN_SECRET ?? crypto.randomBytes(32).toString("hex");
 const MAX_AGE_MS = 12 * 60 * 60 * 1000;
 
 function sign(iat: number): string {
@@ -23,6 +25,7 @@ function safeEqual(a: string, b: string): boolean {
 }
 
 export function verifyPassword(password: string): boolean {
+  if (!PASSWORD) return false;
   return safeEqual(password, PASSWORD);
 }
 
