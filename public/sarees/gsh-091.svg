@@ -1,0 +1,520 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200" role="img">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#A8384A"/>
+      <stop offset="0.45" stop-color="#6B1220"/>
+      <stop offset="1" stop-color="#320810"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6E4AE"/>
+      <stop offset="0.5" stop-color="#CB9B4A"/>
+      <stop offset="1" stop-color="#7A5A1C"/>
+    </linearGradient>
+    <linearGradient id="pallu" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#320810"/>
+      <stop offset="1" stop-color="#6B1220"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.62" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.22"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.4" r="0.85">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.42"/>
+    </radialGradient>
+    <pattern id="weave" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="none"/>
+      <path d="M0 0 L6 6 M6 0 L0 6" stroke="#ffffff" stroke-opacity="0.05" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="1200" fill="#320810"/>
+  <rect width="900" height="1200" fill="url(#body)"/>
+  <rect width="900" height="1200" fill="url(#weave)"/>
+  <rect x="196.8714337227866" y="0" width="23.862124354112893" height="1200" fill="#fff" opacity="0.14783842434175312"/><rect x="334.80156028363854" y="0" width="20.346801123581827" height="1200" fill="#000" opacity="0.08285903085023165"/><rect x="450.15103480312973" y="0" width="35.552369554992765" height="1200" fill="#fff" opacity="0.15394132405519484"/><rect x="583.8918086588383" y="0" width="39.83810394629836" height="1200" fill="#000" opacity="0.14594325432553887"/><rect x="732.5601525194943" y="0" width="32.36756359087303" height="1200" fill="#fff" opacity="0.14803194295614958"/>
+
+  <!-- pallu -->
+  <g opacity="0.96">
+    <rect x="500" y="70" width="360" height="470" rx="6" fill="url(#pallu)"/>
+    <rect x="500" y="70" width="360" height="470" rx="6" fill="none" stroke="url(#gold)" stroke-width="6"/>
+    <rect x="516" y="86" width="328" height="438" rx="4" fill="none" stroke="url(#gold)" stroke-width="1.4" stroke-opacity="0.85"/>
+    <g transform="translate(520,120)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(610,120)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(700,120)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(790,120)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(520,210)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(610,210)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(700,210)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(790,210)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(520,300)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(610,300)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(700,300)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(790,300)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(520,390)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(610,390)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(700,390)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(790,390)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(520,480)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(610,480)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(700,480)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(790,480)"><g transform="scale(0.7)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g>
+    <path d="M500 540 L860 540" stroke="url(#gold)" stroke-width="8"/>
+  </g>
+
+  <!-- side zari band -->
+  <rect x="0" y="0" width="86" height="1200" fill="url(#gold)" opacity="0.92"/>
+  <rect x="86" y="0" width="6" height="1200" fill="#320810" opacity="0.5"/>
+  <g transform="translate(46,60) scale(0.34)"><g transform="scale(1)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(46,156) scale(0.34)"><g transform="scale(1)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(46,252) scale(0.34)"><g transform="scale(1)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(46,348) scale(0.34)"><g transform="scale(1)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(46,444) scale(0.34)"><g transform="scale(1)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(46,540) scale(0.34)"><g transform="scale(1)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(46,636) scale(0.34)"><g transform="scale(1)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(46,732) scale(0.34)"><g transform="scale(1)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(46,828) scale(0.34)"><g transform="scale(1)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(46,924) scale(0.34)"><g transform="scale(1)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g><g transform="translate(46,1020) scale(0.34)"><g transform="scale(1)" fill="#CB9B4A">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#320810"/>
+      </g></g>
+
+  <!-- bottom zari border -->
+  <rect x="0" y="1080" width="900" height="120" fill="url(#gold)"/>
+  <rect x="0" y="1080" width="900" height="6" fill="#320810" opacity="0.5"/>
+  <rect x="0" y="1096" width="900" height="2" fill="#320810" opacity="0.4"/>
+  <g transform="translate(40,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(100,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(160,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(220,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(280,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(340,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(400,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(460,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(520,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(580,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(640,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(700,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(760,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(820,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g><g transform="translate(880,1148) scale(0.32)"><g transform="scale(1)" fill="#320810">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#CB9B4A"/>
+      </g></g>
+
+  <rect width="900" height="1200" fill="url(#sheen)"/>
+  <rect width="900" height="1200" fill="url(#vignette)"/>
+</svg>

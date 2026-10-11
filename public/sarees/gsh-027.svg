@@ -1,0 +1,721 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200" role="img">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#E79C42"/>
+      <stop offset="0.45" stop-color="#C06A0E"/>
+      <stop offset="1" stop-color="#5A2F03"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6E4AE"/>
+      <stop offset="0.5" stop-color="#7A3B08"/>
+      <stop offset="1" stop-color="#7A5A1C"/>
+    </linearGradient>
+    <linearGradient id="pallu" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5A2F03"/>
+      <stop offset="1" stop-color="#C06A0E"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.62" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.22"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.4" r="0.85">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.42"/>
+    </radialGradient>
+    <pattern id="weave" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="none"/>
+      <path d="M0 0 L6 6 M6 0 L0 6" stroke="#ffffff" stroke-opacity="0.05" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="1200" fill="#5A2F03"/>
+  <rect width="900" height="1200" fill="url(#body)"/><g opacity="0.62"><g transform="translate(160,80)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(320,80)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(480,80)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(640,80)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(800,80)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(960,80)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(80,240)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(240,240)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(400,240)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(560,240)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(720,240)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(880,240)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(160,400)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(320,400)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(480,400)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(640,400)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(800,400)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(960,400)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(80,560)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(240,560)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(400,560)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(560,560)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(720,560)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(880,560)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(160,720)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(320,720)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(480,720)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(640,720)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(800,720)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(960,720)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(80,880)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(240,880)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(400,880)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(560,880)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(720,880)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(880,880)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(160,1040)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(320,1040)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(480,1040)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(640,1040)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g><g transform="translate(800,1040)"><g transform="scale(0.62)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#E79C42"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#E79C42"/>
+      </g></g><g transform="translate(960,1040)"><g transform="scale(0.62)">
+        <circle r="9" fill="#E79C42"/>
+        <g fill="#7A3B08">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#7A3B08"/>
+      </g></g></g>
+  <rect width="900" height="1200" fill="url(#weave)"/>
+  <rect x="217.61923455167562" y="0" width="33.72851874306798" height="1200" fill="#fff" opacity="0.11496567821130156"/><rect x="386.2324175564572" y="0" width="23.161067330278456" height="1200" fill="#000" opacity="0.13453905932605265"/><rect x="552.4640810815617" y="0" width="22.912033764645457" height="1200" fill="#fff" opacity="0.14165267085656524"/><rect x="713.9003628445789" y="0" width="16.208945436868817" height="1200" fill="#000" opacity="0.05500500048510731"/>
+
+  <!-- pallu -->
+  <g opacity="0.96">
+    <rect x="500" y="70" width="360" height="470" rx="6" fill="url(#pallu)"/>
+    <rect x="500" y="70" width="360" height="470" rx="6" fill="none" stroke="url(#gold)" stroke-width="6"/>
+    <rect x="516" y="86" width="328" height="438" rx="4" fill="none" stroke="url(#gold)" stroke-width="1.4" stroke-opacity="0.85"/>
+    <g transform="translate(520,120)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(610,120)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(700,120)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(790,120)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(520,210)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(610,210)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(700,210)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(790,210)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(520,300)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(610,300)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(700,300)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(790,300)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(520,390)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(610,390)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(700,390)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(790,390)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(520,480)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(610,480)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(700,480)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(790,480)"><g transform="scale(0.7)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g>
+    <path d="M500 540 L860 540" stroke="url(#gold)" stroke-width="8"/>
+  </g>
+
+  <!-- side zari band -->
+  <rect x="0" y="0" width="86" height="1200" fill="url(#gold)" opacity="0.92"/>
+  <rect x="86" y="0" width="6" height="1200" fill="#5A2F03" opacity="0.5"/>
+  <g transform="translate(46,60) scale(0.34)"><g transform="scale(1)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(46,156) scale(0.34)"><g transform="scale(1)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(46,252) scale(0.34)"><g transform="scale(1)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(46,348) scale(0.34)"><g transform="scale(1)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(46,444) scale(0.34)"><g transform="scale(1)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(46,540) scale(0.34)"><g transform="scale(1)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(46,636) scale(0.34)"><g transform="scale(1)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(46,732) scale(0.34)"><g transform="scale(1)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(46,828) scale(0.34)"><g transform="scale(1)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(46,924) scale(0.34)"><g transform="scale(1)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g><g transform="translate(46,1020) scale(0.34)"><g transform="scale(1)" fill="#7A3B08">
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(0)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(45)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(90)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(135)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(180)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(225)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(270)"/>
+        <path d="M0 -26 C8 -16 8 -6 0 0 C-8 -6 -8 -16 0 -26Z" transform="rotate(315)"/>
+        <circle r="7" fill="#5A2F03"/>
+      </g></g>
+
+  <!-- bottom zari border -->
+  <rect x="0" y="1080" width="900" height="120" fill="url(#gold)"/>
+  <rect x="0" y="1080" width="900" height="6" fill="#5A2F03" opacity="0.5"/>
+  <rect x="0" y="1096" width="900" height="2" fill="#5A2F03" opacity="0.4"/>
+  <g transform="translate(40,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(92,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(144,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(196,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(248,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(300,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(352,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(404,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(456,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(508,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(560,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(612,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(664,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(716,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(768,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(820,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g><g transform="translate(872,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#5A2F03"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#7A3B08" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#5A2F03"/>
+      </g></g>
+
+  <rect width="900" height="1200" fill="url(#sheen)"/>
+  <rect width="900" height="1200" fill="url(#vignette)"/>
+</svg>

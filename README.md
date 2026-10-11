@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Geeta Silk House — Website
 
-## Getting Started
+A luxury silk saree catalogue and enquiry site for **Geeta Silk House**, Vijayapura, Karnataka.
+Built with Next.js (App Router), TypeScript, Tailwind CSS v4 and Framer Motion.
 
-First, run the development server:
+Tagline: _Where Every Weave Tells a Royal Story._
+
+## What's included
+
+- Cinematic editorial home page (hero, signature edits, featured grid, brand story, why-choose, visit-us).
+- A filterable, searchable, sortable **collection** of 100 sarees across 10 categories.
+- Per-saree **detail pages** with colour, weave, fabric and availability, plus related pieces and Product JSON-LD.
+- **WhatsApp enquiry** flow: per-saree enquiry, an "enquiry list" (saved sarees), and a floating WhatsApp button.
+- A password-protected **admin dashboard** at `/admin` with full create / edit / delete / reset.
+
+## Getting started
 
 ```bash
+npm install
+cp .env.example .env.local   # then fill in real values
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000. The catalogue seeds itself from `src/data/products.ts` on first run.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the dev server |
+| `npm run build` | Production build |
+| `npm run start` | Run the production build |
+| `npm run lint` | ESLint |
+| `node scripts/generate-catalog.mjs` | Regenerate the 100 product SVGs, atmosphere art and `src/data/products.ts` |
 
-## Learn More
+> On Windows, PowerShell may block `npm.ps1`. If so run scripts via `cmd /c "npm run build"`.
 
-To learn more about Next.js, take a look at the following resources:
+### Styling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tailwind CSS v4 is wired through its Turbopack loader (`@tailwindcss/turbopack`) via `turbopack.rules["*.css"]` in `next.config.ts`. Design tokens (colours, fonts, animations) are declared with `@theme` in `src/app/globals.css`. If you upgrade Tailwind or Next, keep this rule in place or utilities will not be generated.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Configuration (please review before launch)
 
-## Deploy on Vercel
+Everything below is intentionally configurable. Set values in `.env.local` (see `.env.example`).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Variable | Purpose | Default |
+| --- | --- | --- |
+| `NEXT_PUBLIC_WHATSAPP_NUMBER` | Store WhatsApp number, digits only (e.g. `919876543210`). **Empty by default** → enquiry buttons open WhatsApp with a pre-filled message and no fixed recipient. | empty |
+| `NEXT_PUBLIC_STORE_PHONE` | Optional phone shown in the footer. Blank hides it. | empty |
+| `NEXT_PUBLIC_STORE_EMAIL` | Optional email shown in the footer. Blank hides it. | empty |
+| `NEXT_PUBLIC_INSTAGRAM_URL` / `NEXT_PUBLIC_FACEBOOK_URL` / `NEXT_PUBLIC_YOUTUBE_URL` | Optional social links. Blank hides them. | empty |
+| `ADMIN_PASSWORD` | Password for `/admin`. **Change before launch.** | `geeta-admin` |
+| `ADMIN_SECRET` | Secret used to sign admin session tokens. Use a long random string. | dev placeholder |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Store details (name, address, tagline) live in `src/lib/config.ts`.
+
+### Content that still needs real details
+
+To stay honest, the site does **not** invent facts. These are deliberately left out until the store supplies them:
+
+- Real product photography. Catalogue images are **original illustrative SVG artwork** (`public/sarees/`, `public/atmosphere/`) representing colour, weave and style — not photographs of physical inventory. Replace the `image` field per saree (via the admin dashboard or `products.ts`) with real photos.
+- Shipping, returns and exchange policies. Placeholders note this on `/terms`; add the real policy before launch.
+- Reviews, certifications and store history — not shown because none were provided.
+
+## Admin dashboard
+
+Visit `/admin` and sign in with `ADMIN_PASSWORD`. From there you can add, edit and delete sarees and reset the catalogue to the original seed.
+
+### Data persistence
+
+Catalogue changes are written to **`data/products.json`** (created on first mutation) via `src/lib/product-store.ts`. This file-backed store is ideal for local use and a single always-on server. **On serverless platforms with an ephemeral or read-only filesystem (e.g. Vercel), replace the storage layer in `src/lib/product-store.ts` with a database or object store** — the rest of the app only talks to that module.
+
+## Project structure
+
+```
+src/
+  app/
+    (site)/            # public site: home, collection, saree/[slug], privacy, terms
+    admin/             # admin dashboard
+    api/               # products CRUD + admin auth routes
+  components/          # UI: header, footer, cards, drawers, home sections, admin/
+  data/products.ts     # 100-product seed (generated)
+  lib/                 # config, catalog helpers, types, product store, admin auth, bag context
+public/
+  sarees/              # per-saree illustrative SVGs
+  atmosphere/          # hero/story/edit background SVGs
+scripts/generate-catalog.mjs
+```

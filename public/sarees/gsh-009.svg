@@ -1,0 +1,407 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200" role="img">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#51689B"/>
+      <stop offset="0.45" stop-color="#22335E"/>
+      <stop offset="1" stop-color="#0C1228"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6E4AE"/>
+      <stop offset="0.5" stop-color="#CFAE5C"/>
+      <stop offset="1" stop-color="#7A5A1C"/>
+    </linearGradient>
+    <linearGradient id="pallu" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C1228"/>
+      <stop offset="1" stop-color="#22335E"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.62" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.22"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.4" r="0.85">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.42"/>
+    </radialGradient>
+    <pattern id="weave" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="none"/>
+      <path d="M0 0 L6 6 M6 0 L0 6" stroke="#ffffff" stroke-opacity="0.05" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="1200" fill="#0C1228"/>
+  <rect width="900" height="1200" fill="url(#body)"/>
+  <rect width="900" height="1200" fill="url(#weave)"/>
+  <rect x="190.6788965817541" y="0" width="34.69644867675379" height="1200" fill="#fff" opacity="0.11807672506198287"/><rect x="336.90791797079146" y="0" width="28.286386270541698" height="1200" fill="#000" opacity="0.07534385312348604"/><rect x="451.8747759098187" y="0" width="26.416127228643745" height="1200" fill="#fff" opacity="0.12892736635170876"/><rect x="593.0439350828528" y="0" width="41.771967991720885" height="1200" fill="#000" opacity="0.12376009417697788"/><rect x="715.9674685364589" y="0" width="20.051755296066403" height="1200" fill="#fff" opacity="0.12270731836557389"/>
+
+  <!-- pallu -->
+  <g opacity="0.96">
+    <rect x="500" y="70" width="360" height="470" rx="6" fill="url(#pallu)"/>
+    <rect x="500" y="70" width="360" height="470" rx="6" fill="none" stroke="url(#gold)" stroke-width="6"/>
+    <rect x="516" y="86" width="328" height="438" rx="4" fill="none" stroke="url(#gold)" stroke-width="1.4" stroke-opacity="0.85"/>
+    <g transform="translate(520,120)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(610,120)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(700,120)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(790,120)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(520,210)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(610,210)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(700,210)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(790,210)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(520,300)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(610,300)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(700,300)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(790,300)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(520,390)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(610,390)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(700,390)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(790,390)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(520,480)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(610,480)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(700,480)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(790,480)"><g transform="scale(0.7)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g>
+    <path d="M500 540 L860 540" stroke="url(#gold)" stroke-width="8"/>
+  </g>
+
+  <!-- side zari band -->
+  <rect x="0" y="0" width="86" height="1200" fill="url(#gold)" opacity="0.92"/>
+  <rect x="86" y="0" width="6" height="1200" fill="#0C1228" opacity="0.5"/>
+  <g transform="translate(46,60) scale(0.34)"><g transform="scale(1)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(46,156) scale(0.34)"><g transform="scale(1)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(46,252) scale(0.34)"><g transform="scale(1)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(46,348) scale(0.34)"><g transform="scale(1)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(46,444) scale(0.34)"><g transform="scale(1)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(46,540) scale(0.34)"><g transform="scale(1)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(46,636) scale(0.34)"><g transform="scale(1)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(46,732) scale(0.34)"><g transform="scale(1)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(46,828) scale(0.34)"><g transform="scale(1)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(46,924) scale(0.34)"><g transform="scale(1)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g><g transform="translate(46,1020) scale(0.34)"><g transform="scale(1)">
+        <circle r="9" fill="#CFAE5C"/>
+        <g fill="#0C1228">
+          <ellipse cx="0" cy="-16" rx="4" ry="9"/>
+          <ellipse cx="0" cy="16" rx="4" ry="9"/>
+          <ellipse cx="-16" cy="0" rx="9" ry="4"/>
+          <ellipse cx="16" cy="0" rx="9" ry="4"/>
+        </g>
+        <circle r="4" fill="#0C1228"/>
+      </g></g>
+
+  <!-- bottom zari border -->
+  <rect x="0" y="1080" width="900" height="120" fill="url(#gold)"/>
+  <rect x="0" y="1080" width="900" height="6" fill="#0C1228" opacity="0.5"/>
+  <rect x="0" y="1096" width="900" height="2" fill="#0C1228" opacity="0.4"/>
+  <g transform="translate(40,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(92,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(144,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(196,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(248,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(300,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(352,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(404,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(456,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(508,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(560,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(612,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(664,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(716,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(768,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(820,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g><g transform="translate(872,1146) scale(0.34)"><g transform="scale(1)">
+        <path d="M0 30 C-26 12 -26 -14 0 -34 C26 -14 26 12 0 30Z" fill="#0C1228"/>
+        <path d="M0 22 C-16 8 -16 -10 0 -22 C16 -10 16 8 0 22Z" fill="#CFAE5C" opacity="0.85"/>
+        <path d="M0 14 C-8 6 -8 -4 0 -10 C8 -4 8 6 0 14Z" fill="#0C1228"/>
+      </g></g>
+
+  <rect width="900" height="1200" fill="url(#sheen)"/>
+  <rect width="900" height="1200" fill="url(#vignette)"/>
+</svg>
