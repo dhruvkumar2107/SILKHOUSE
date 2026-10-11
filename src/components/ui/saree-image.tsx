@@ -4,6 +4,8 @@ import Image from "next/image";
 import { useState } from "react";
 import { cn, isSvg } from "@/lib/utils";
 
+const FALLBACK_SRC = "/atmosphere/texture.svg";
+
 interface SareeImageProps {
   src: string;
   alt: string;
@@ -40,6 +42,10 @@ export function SareeImage({
         unoptimized={isSvg(src)}
         loading={priority ? undefined : "lazy"}
         onLoad={() => setLoaded(true)}
+        onError={(e) => {
+          const img = e.currentTarget;
+          if (!img.src.endsWith(FALLBACK_SRC)) img.src = FALLBACK_SRC;
+        }}
         className={cn(
           "object-cover transition-[opacity,transform] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)]",
           loaded ? "opacity-100" : "opacity-0",

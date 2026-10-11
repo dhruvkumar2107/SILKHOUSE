@@ -1,10 +1,10 @@
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import type { Saree } from "@/lib/types";
 import { signatureEdits } from "@/lib/catalog";
 import { Reveal } from "@/components/ui/reveal";
 import { Tilt3D } from "@/components/ui/tilt-3d";
+import { SareeImage } from "@/components/ui/saree-image";
 import { FeaturedGrid } from "@/components/home/featured-grid";
 
 const spans = ["lg:col-span-7", "lg:col-span-5", "lg:col-span-5", "lg:col-span-7"];
@@ -36,13 +36,12 @@ export function SignatureSection({ featured }: { featured: Saree[] }) {
                   href={`/collection?category=${edit.filterCategory}`}
                   className="group relative block h-full w-full overflow-hidden rounded-lg border border-gold/20"
                 >
-                <Image
+                <SareeImage
                   src={edit.image}
                   alt={edit.title}
-                  fill
-                  unoptimized
                   sizes="(max-width: 1024px) 100vw, 55vw"
-                  className="object-cover transition-transform duration-[1100ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105"
+                  className="h-full w-full"
+                  zoomOnHover
                 />
                 <span className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/25 to-transparent" />
                 <span className="absolute inset-x-0 bottom-0 p-7 sm:p-9">
@@ -72,7 +71,7 @@ export function SignatureSection({ featured }: { featured: Saree[] }) {
           ))}
         </div>
 
-        <Reveal className="mt-16 text-center">
+        <Reveal className="mt-10 text-center">
           <p className="eyebrow text-wine">Featured this season</p>
           <h3 className="mt-4 font-display text-4xl text-ink sm:text-5xl">Signature Sarees</h3>
         </Reveal>
