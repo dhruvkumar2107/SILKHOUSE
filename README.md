@@ -67,6 +67,8 @@ To stay honest, the site does **not** invent facts. These are deliberately left 
 
 Visit `/admin` and sign in with `ADMIN_PASSWORD` (set it in `.env.local` — until you do, login is locked out by design). From there you can add, edit and delete sarees and reset the catalogue to the original seed.
 
+The saree form lets you **upload a photo from your computer** (JPG/PNG/WebP, max 10 MB). Uploads are written to `data/uploads/` by `POST /api/uploads` (auth-guarded), served back at `/api/uploads/<name>` (public, long-cached), and become the saree's `image` field — so product images are stored by the site rather than hot-linked. `data/` is gitignored, so uploaded binaries are never committed; back it up or persist it like `data/products.json`. You can still paste an image URL/path instead.
+
 ### Data persistence
 
 Catalogue changes are written to **`data/products.json`** (created on first mutation) via `src/lib/product-store.ts`. This file-backed store is ideal for local use and a single always-on server. **On serverless platforms with an ephemeral or read-only filesystem (e.g. Vercel), replace the storage layer in `src/lib/product-store.ts` with a database or object store** — the rest of the app only talks to that module.

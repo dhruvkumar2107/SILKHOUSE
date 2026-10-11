@@ -87,6 +87,7 @@ export function AdminDashboard() {
   const [formOpen, setFormOpen] = useState(false);
   const [form, setForm] = useState<FormState>(emptyForm);
   const [saving, setSaving] = useState(false);
+  const [uploading, setUploading] = useState(false);
   const [deleteTarget, setDeleteTarget] = useState<Saree | null>(null);
 
   useEffect(() => {
@@ -225,6 +226,38 @@ export function AdminDashboard() {
       notify("Network error while saving.");
     } finally {
       setSaving(false);
+    }
+  }
+
+  async function handleImageFile(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file || !token) return;
+    setUploading(true);
+    try {
+      const fd = new FormData();
+      fd.append("file", file);
+      const res = await fetch("/api/uploads", {
+        method: "POST",
+        headers: { Authorization: `Bearer ${token}` },
+        body: fd,
+      });
+      if (res.status === 401) {
+        logout();
+        notify("Session expired. Please sign in again.");
+        return;
+      }
+      const data = await res.json();
+      if (!res.ok) {
+        notify(data?.error ?? "Upload failed.");
+        return;
+      }
+      setForm({ ...form, image: data.path });
+      notify("Photo uploaded and stored locally.", "success");
+    } catch {
+      notify("Network error while uploading.");
+    } finally {
+      setUploading(false);
+      e.target.value = "";
     }
   }
 
@@ -551,7 +584,34 @@ export function AdminDashboard() {
                   />
                 </Field>
 
-                <Field label="Image URL or path" className="sm:col-span-2">
+                <Field label="Product photo" className="sm:col-span-2">
+                  <div className="flex flex-col gap-3 sm:flex-row sm:items-start">
+                    <div className="flex flex-1 flex-col gap-2">
+                      <input
+                        type="file"
+                        accept="image/jpeg,image/png,image/webp"
+                        disabled={uploading}
+                        onChange={handleImageFile}
+                        className="block w-full cursor-pointer text-sm text-ink/60 file:mr-4 file:cursor-pointer file:rounded-md file:border-0 file:bg-wine file:px-4 file:py-2.5 file:text-sm file:font-semibold file:text-ivory file:transition hover:file:bg-wine-deep disabled:opacity-60"
+                      />
+                      <p className="text-xs leading-relaxed text-ink/45">
+                        {uploading
+                          ? "Uploading…"
+                          : "Choose a JPG, PNG or WebP from your computer (max 10 MB). It is stored on the site and served from /api/uploads/."}
+                      </p>
+                    </div>
+                    {form.image && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={form.image}
+                        alt=""
+                        className="h-20 w-16 rounded-md border border-ink/10 object-cover"
+                      />
+                    )}
+                  </div>
+                </Field>
+
+                <Field label="Or use an image URL or path" className="sm:col-span-2">
                   <input
                     value={form.image}
                     onChange={(e) => setForm({ ...form, image: e.target.value })}

@@ -24,7 +24,7 @@ export function SignatureSection({ featured }: { featured: Saree[] }) {
           </p>
         </Reveal>
 
-        <div className="mt-16 grid gap-5 lg:grid-cols-12">
+        <div className="mt-10 grid gap-5 lg:grid-cols-12">
           {signatureEdits.map((edit, i) => (
             <Reveal key={edit.id} delay={i * 0.06} className={spans[i]}>
               <Tilt3D
@@ -72,12 +72,12 @@ export function SignatureSection({ featured }: { featured: Saree[] }) {
           ))}
         </div>
 
-        <Reveal className="mt-24 text-center">
+        <Reveal className="mt-16 text-center">
           <p className="eyebrow text-wine">Featured this season</p>
           <h3 className="mt-4 font-display text-4xl text-ink sm:text-5xl">Signature Sarees</h3>
         </Reveal>
 
-        <div className="mt-12">
+        <div className="mt-10">
           <FeaturedGrid products={featured} />
         </div>
       </div>
